@@ -1,0 +1,103 @@
+.body-wrap{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+.projects{
+ margin-top: 50px;
+}
+
+/* skill-set styling */
+.tech-skills{
+    height: 60px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    /* background-color: red; */
+  
+  }
+  .tech-skills img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top;
+    border-radius: 10px;
+  }
+  
+
+
+.projects-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.project{
+    width:30%;
+    height: 300px;
+    margin: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    
+}
+.project-image{
+    height: 200px;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.text p{
+   color: black; 
+}
+.technologies-deployed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 40px;
+    margin: auto;
+}
+
+
+
+@media(max-width:1200px){
+    .tech-skills{
+        height: 60px;
+        width: 60%;
+        margin: auto;
+      
+      }
+    .project{
+        width:48%;
+    }
+}
+
+
+@media(max-width: 768px){
+    .tech-skills{
+        height: 60px;
+        width: 80%;
+      
+      }
+    .projects-wrap{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction:column;
+    }
+    .project{
+        width:97%;  
+    }
+}
