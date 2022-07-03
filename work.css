@@ -3,10 +3,8 @@
     margin: auto;
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 50px;
 }
-
-
-
 .projects{
  margin-top: 50px;
 }
@@ -19,7 +17,7 @@
     display: flex;
     justify-content:space-between;
     flex-direction: row;
-    /* background-color: red; */
+ 
   
   }
   .tech-skills img{
@@ -34,8 +32,8 @@
 
 .projects-wrap{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
@@ -93,8 +91,10 @@
         margin: auto;
       
       }
+
     .project{
-        width:48%;
+        width:47%;
+       
     }
 }
 
@@ -111,6 +111,7 @@
         flex-direction:column;
     }
     .project{
-        width:97%;  
+        width:97%;
+        margin: 30px;  
     }
 }

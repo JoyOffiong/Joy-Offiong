@@ -8,14 +8,14 @@ menuButton.addEventListener('click', () => {
   
         menuButton.style.display='none'
         closeButton.style.display = 'block'
-        navigationMenu.style.display = 'block'
         mainWrap.style.overflow= 'hidden'
+        navigationMenu.style.transform ='translateY(-0%)'
 })
  
     closeButton.addEventListener('click', () => {
             closeButton.style.display='none'   
             menuButton.style.display = 'block' 
-            navigationMenu.style.display= 'none'
+            navigationMenu.style.transform ='translateY(-100%)'
 
             
     })
