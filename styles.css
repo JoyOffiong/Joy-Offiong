@@ -89,6 +89,19 @@ p{
 .section-about-us{
   margin-bottom: 11%;
 }
+.section-button button{
+  background-color: red;
+  padding: 10px;
+  border:none;
+  border-radius: 5px;
+
+}
+.section-button button:hover{
+  background-color: white;
+}
+.section-button button a:hover{
+  color: red;
+}
 
 footer{
   background-color: red;
