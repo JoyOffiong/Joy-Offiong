@@ -30,7 +30,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 4%;
-    background-color: rgb(27, 26, 26);
+    /* background-color: rgb(27, 26, 26); */
+    background-color: hsl(231, 14%, 15%);
     z-index: 20;  
 }
 
@@ -106,7 +107,8 @@ p{
 }
 
 footer{
-  background-color: rgb(27, 26, 26);
+  /* background-color: rgb(27, 26, 26); */
+  background-color: hsl(231, 14%, 15%);
   margin: auto;
   display: flex;
   flex-direction: column;
