@@ -13,6 +13,7 @@ img{
 body{
     color: white;
     background-color: black;
+
 }
 .nav-toggle, .nav-toggle2{
     display: none;
@@ -62,7 +63,10 @@ a{
 }
 a.active{
   background-color: rgb(143, 136, 136);
+  background-color: hsl(231, 14%, 18%);
+  background-color: hsl(53, 100%, 82%);
     border-radius: 5px;
+    color: black;
 }
 a:hover{
   text-decoration: underline;

@@ -32,6 +32,8 @@ span{
 
  .text button{
     background-color: rgb(143, 136, 136);
+    /* background-color: rgb(195, 151, 151); */
+    background-color: hsl(53, 100%, 82%);
     padding: 10px;
     margin-top: 30px;
     border: none;
@@ -40,6 +42,7 @@ span{
  }
  .text button a{
     font-size: 16px;
+    color: black;
  }
 
 
