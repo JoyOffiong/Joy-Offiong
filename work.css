@@ -65,14 +65,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
     height: 40px;
     margin: auto;
 }
 
 .view-button{
-    background-color: red;
-    color: white;
+    background-color: hsl(53, 100%, 82%);
+    color: black;
     width: 30%;
     padding: 5px;
     border-radius: 5px;

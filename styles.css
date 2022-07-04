@@ -62,8 +62,6 @@ a{
   transition: 0.9s ease;
 }
 a.active{
-  background-color: rgb(143, 136, 136);
-  background-color: hsl(231, 14%, 18%);
   background-color: hsl(53, 100%, 82%);
     border-radius: 5px;
     color: black;
@@ -111,9 +109,6 @@ footer{
   background-color: rgb(27, 26, 26);
   margin: auto;
   display: flex;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
   flex-direction: column;
   justify-content: center;
 }
