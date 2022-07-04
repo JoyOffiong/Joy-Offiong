@@ -61,7 +61,7 @@ a{
   transition: 0.9s ease;
 }
 a.active{
-    background-color: red;
+  background-color: rgb(143, 136, 136);
     border-radius: 5px;
 }
 a:hover{
@@ -104,9 +104,12 @@ p{
 }
 
 footer{
-  background-color: red;
+  background-color: rgb(27, 26, 26);
   margin: auto;
   display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   flex-direction: column;
   justify-content: center;
 }
@@ -121,17 +124,18 @@ footer{
   align-items: center;
   width: 40%;
   margin: auto;
-  justify-content: space-between;
+  justify-content: center;
   transform: scale(1.1);
   margin-bottom: 30px;
 }
 
 .social-media-links i:hover, .social-media-links svg:hover{
-  color: black;
+  color: rgb(160, 141, 141);
   font-size: 15px;
 }
 .social-media-links a{
   padding: 8px;
+  gap: 1rem;
   padding-top: 15px;
 }
 .social-media-links i, .social-media-links svg{
@@ -225,12 +229,12 @@ footer{
       transform: translateY(-100%);
       overflow-x: hidden;
       background-color: rgb(27, 26, 26);
-      /* z-index: 1; */
+      z-index: 1;
   
     }
-    .social-media-links {
-      width: 25%;
-    }
+    /* .social-media-links {
+      /* width: 25%; */
+    
     .section-wrap{
       margin-top: 20%;
     }
@@ -248,7 +252,8 @@ footer{
       
       }
       .social-media-links {
-        width: 40%;
+        width: 100%;
+        margin: auto;
       }
       .footer-content{
         width: 50%;
