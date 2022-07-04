@@ -42,14 +42,15 @@
 
 .project{
     width:30%;
-    height: 350px;
+    height: 400px;
     margin: 10px;
     background-color: #eee;
     border-radius: 10px;
+    box-shadow:0px 1px 3px rgba(251, 249, 249, 0.2), -0px -1px 3px rgba(244, 243, 243, 0.2)
     
 }
 .project-image{
-    height: 200px;
+    height: 250px;
 }
 .project-image img{
     width: 100%;

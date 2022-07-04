@@ -218,6 +218,9 @@ footer{
     .social-media-links {
       width: 25%;
     }
+    .section-wrap{
+      margin-top: 20%;
+    }
   }  
 
     @media(max-width:768px){
