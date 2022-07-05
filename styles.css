@@ -93,12 +93,16 @@ p{
   margin-bottom: 11%;
 }
 .section-button button{
-  background-color: red;
+  background-color: hsl(53, 100%, 82%);
   padding: 10px;
   border:none;
   border-radius: 5px;
 
 }
+.section-button button a{
+  color: black;
+}
+
 .section-button button:hover{
   background-color: white;
 }

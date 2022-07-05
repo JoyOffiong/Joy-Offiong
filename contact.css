@@ -33,13 +33,13 @@
   }
 button{
     padding: 10px 15px;
-    background-color: red; 
+    background-color: hsl(53, 100%, 82%); 
     border: none;
     border-radius: 3px; 
 }
 button a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 @media(max-width:1200px){
