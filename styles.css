@@ -13,6 +13,7 @@ img{
 body{
     color: white;
     background-color: hsl(231, 14%, 18%);
+    font-family: 'Arvo', serif;
 
 }
 .nav-toggle, .nav-toggle2{
@@ -107,15 +108,48 @@ p{
   background-color: white;
 }
 .section-button button a:hover{
-  color: red;
+  color:  hsl(53, 100%, 82%);
 }
 
+
+/* grid pictures */
+.pictures{
+  text-align: center;
+}
+.pictures h2{
+  margin-bottom: 15px;
+}
+
+.fun-pictures{
+  width: 90%;
+  margin: 30px auto;
+  columns:4;
+  column-gap: 10px;
+
+}
+.image{
+  width: 100%;
+  margin: 0 0 10px;
+  transform: scale(1);
+
+}
+.image img{
+  max-width: 100%;
+  object-fit: contain;
+  border: 2px hsl(53, 100%, 82%) solid;
+  transition: 0.7s ease-in-out;
+  /* height: 170px; */
+}
+.image img:hover{
+  transform: scale(1.06);
+}
+
+
+/* footer section */
 footer{
-  /* background-color: rgb(27, 26, 26); */
   background-color: hsl(231, 14%, 15%);
   margin: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 .footer-content{
@@ -171,7 +205,10 @@ footer{
     border-bottom: 1px white solid;
   }
   .mobile-links li:hover{
-    background-color: red;
+    background-color: hsl(53, 100%, 82%);
+  }
+  .mobile-links li a:hover{
+    color: black;
   }
    
     li i{
@@ -233,7 +270,7 @@ footer{
       margin-right: 0;
       transform: translateY(-100%);
       overflow-x: hidden;
-      background-color: rgb(27, 26, 26);
+      background-color: hsl(231, 14%, 15%);
       z-index: 1;
   
     }
@@ -242,6 +279,9 @@ footer{
     
     .section-wrap{
       margin-top: 20%;
+    }
+    .fun-pictures{
+      columns:3; 
     }
   }  
 
@@ -254,6 +294,12 @@ footer{
       }
       .section-wrap{
         margin-top: 25%;
+      
+      }
+      .fun-pictures{
+    
+        columns:1;
+        width:c
       
       }
       .social-media-links {

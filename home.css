@@ -1,12 +1,22 @@
 /* hero-section styling*/
-
+.main-wrap{
+    height: 100vh;
+} 
+.hero-section-image{
+    height: 400px;
+   align-items:center ;
+   width: 50%;
+   margin-top: 10px;
+}  
+img{
+    object-fit: contain;
+}
 .hero-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center ;
     margin-bottom: 1%;
-    height: 80vh;
     background-color: hsl(231, 14%, 18%);
 }
 .image{
@@ -49,10 +59,17 @@ span{
     .name h3{
         font-size: 25px;
     }
+    .hero-section-image{
+        height: 400px;
+       align-items:center ;
+       width: 100%;
+    } 
     .hero-section{
-        margin: 10% 0;
+        display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
+   
     .image{
         display: none;
     }
@@ -66,5 +83,11 @@ span{
      .text h3{
         font-size:25px;
         margin-bottom: 20px;
+    }
+}
+@media(max-width: 768px){
+    .hero-section{
+        margin: 10% 0;
+        flex-direction: column;
     }
 }
