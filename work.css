@@ -71,6 +71,9 @@
     height: 40px;
     margin: auto;
 }
+.technologies-deployed img, .tech-skills img{
+    object-fit: contain;
+}
 
 .view-button{
     background-color: hsl(53, 100%, 82%);

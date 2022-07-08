@@ -93,6 +93,9 @@ p{
 .section-about-us{
   margin-bottom: 11%;
 }
+.section-button{
+  margin-top: 50px;
+}
 .section-button button{
   background-color: hsl(53, 100%, 82%);
   padding: 10px;

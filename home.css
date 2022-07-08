@@ -1,15 +1,16 @@
 /* hero-section styling*/
-.main-wrap{
+/* .main-wrap{
     height: 100vh;
-} 
+}  */
 .hero-section-image{
     height: 400px;
    align-items:center ;
    width: 50%;
-   margin-top: 10px;
+   margin-top: 110px;
 }  
 img{
     object-fit: contain;
+    
 }
 .hero-section{
     display: flex;
