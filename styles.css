@@ -259,7 +259,7 @@ footer{
     .mobile-links {
       position:fixed;
       flex-direction: column;
-      top: 10%;
+      top: 5%;
       /* right: 0px; */
       align-items: none;
       text-align: center;
@@ -282,9 +282,6 @@ footer{
     
     .section-wrap{
       margin-top: 20%;
-    }
-    .fun-pictures{
-      columns:3; 
     }
   }  
 
