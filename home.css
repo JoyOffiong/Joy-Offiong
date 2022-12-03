@@ -3,13 +3,15 @@
     height: 100vh;
 }  */
 .hero-section-image{
-    height: 400px;
-   align-items:center ;
    width: 50%;
-   margin-top: 110px;
+   background-color: black;
+   margin: 30px  auto 20px auto ;
+    
 }  
 img{
     object-fit: contain;
+    height: 100%;
+    width: 100%;
     
 }
 .hero-section{

@@ -61,7 +61,7 @@ a{
   text-decoration: none;
   color: white;
   transform: scale(1.2);
-  transition: 0.9s ease;
+  transition: 4s ease;
 }
 a.active{
   background-color: hsl(53, 100%, 82%);
@@ -71,8 +71,6 @@ a.active{
 a:hover{
   text-decoration: underline;
 
-  
-  transform: scale(1.1);
 }
 p{
     font-size: 18px;
