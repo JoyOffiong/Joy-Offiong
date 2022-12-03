@@ -74,19 +74,9 @@
 .technologies-deployed img, .tech-skills img{
     object-fit: contain;
 }
-
-.view-button{
-    background-color: hsl(53, 100%, 82%);
-    color: black;
-    width: 30%;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 20px auto;
-    
-}
-.view-button a{
-    text-decoration: none;
-    color: black;
+.github-globe{
+    margin-top: 15px;
+    text-align: center;
 }
 
 
