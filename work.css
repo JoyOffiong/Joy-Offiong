@@ -77,6 +77,9 @@
 .github-globe{
     margin-top: 15px;
     text-align: center;
+    gap: 20px;
+    align-items: center;
+    
 }
 
 
